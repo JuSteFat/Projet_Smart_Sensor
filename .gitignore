@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# AutoKeras / KerasTuner / TensorFlow
+auto_model*/
+untitled_project/
+tuner_logs/
+logs/
+runs/
+
+# Modèles entraînés et exportés (volumineux)
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+*.pb
+
+# STM32 / Compilation embarquée (séances suivantes)
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.cyclo
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+st_ai_output/
+
+# Variables d'environnement
+.env
+.env.*
+
+# IDE & Éditeurs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
